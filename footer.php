@@ -1,5 +1,5 @@
       <footer>
-        <p>&copy; RoboJackets 2012</p>
+        <p>&copy; RoboJackets <?php echo date('Y'); ?></p>
       </footer>
 
     </div> <!-- /container -->
