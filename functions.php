@@ -93,12 +93,12 @@ class Bootstrapifier extends Walker_Nav_Menu {
         parent::display_element( $element, $children_elements, $max_depth, $depth, $args, $output );
     }
 
-	function start_lvl(&$output, $depth) {
+	function start_lvl(&$output, $depth = 0, $args = '') {
 		$indent = str_repeat("\t", $depth);
 		$output .= "\n$indent<ul class=\"sub-menu dropdown-menu\">\n";
 	}
 
-	function start_el(&$output, $item, $depth, $args) {
+	function start_el(&$output, $item, $depth = 0, $args = '', $id = 0) {
 		global $wp_query;
 		$indent = ( $depth ) ? str_repeat( "\t", $depth ) : '';
 

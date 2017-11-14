@@ -1,5 +1,5 @@
 		<aside id="media" class="span2 sidebar">
-	      <a href="<?php echo HOME_URI; ?>/gallery"><img src="<?php echo THEME_IMAGES; ?>/collage.jpg" alt="Photo Gallery" /></a>
+	      <a href="https://www.facebook.com/RoboJackets/photos_stream?tab=photos_albums"><img src="<?php echo THEME_IMAGES; ?>/collage.jpg" alt="Photo Gallery" /></a>
 	      <p><strong>Check out our photo gallery!</strong></p>
 	      <p>See photos of our robots, events, and competitions.</p>
 	      <a href="<?php bloginfo('rss2_url'); ?>"><img src="<?php echo THEME_IMAGES; ?>/Feed_512x512.png" alt="RSS Feed" width="48" height="48" /></a>

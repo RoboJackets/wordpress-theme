@@ -22,11 +22,11 @@
         </section> <!-- /posts -->
 
         <!-- Media items (photo gallery, social media, etc.) -->
-        <!-- <?php get_sidebar(media); ?> -->
+        <!-- <?php get_sidebar("media"); ?> -->
 
 
       <!-- Info about joining the club -->
-      <?php get_sidebar(clubinfo); ?>
+      <?php get_sidebar("clubinfo"); ?>
         
       </section> <!-- /content -->
 

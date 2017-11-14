@@ -15,7 +15,7 @@
         </section> <!-- /posts -->
 
         <!-- Media items (photo gallery, social media, etc.) -->
-        <?php get_sidebar(clubinfo); ?>
+        <?php get_sidebar("clubinfo"); ?>
         
       </section> <!-- /content -->
 
